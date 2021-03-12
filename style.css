@@ -1,0 +1,112 @@
+body {
+	background-color: yellow;
+	font-family:´Bangers Sans SC´;
+	font-size:20px;
+
+	background: 
+	   linear-gradient(
+	   	      50deg,
+		      rgba(0,0,0,100%),
+		      rgba(0,0,0,90%),
+		      rgba(0,0,0,80%),
+		      rgba(0,0,0,35%),
+		      rgba(0,0,0,0%)
+		 ) no-repeat,
+	   url(img/dobladas.jpg);
+
+	background-size: cover;
+
+}
+
+
+
+h1 {
+	background-color: black;
+	color: #cccccc;
+	text-align: center;
+	text-align: uppercase;
+	text-transform: uppercase;
+}
+
+.nav {
+	/*border-style: solid;*/
+	/*border-width: 1px;*/
+	/*border-color: white;*/
+	float: right;
+	margin: 0px 5px;
+	width: 60%;
+	/*background-color: white;*/
+	text-align: right;
+	display: inline-block;
+	border-radius: 50px 10px;
+	font-family:´Bangers Sans SC´;
+	font-size: 20px;
+}
+
+/*Este es un div*/
+.panel {
+	width: 30%;
+	height: 600px;
+	background-color: black;
+	color: white;
+	opacity: 90%;
+	padding: 50px;
+	padding-top: 70px;
+}
+
+/*------------------------------------------
+    REGLA PARA TIEMS DE LISTA DESORDENADA
+------------------------------------------*/
+
+.nav ul li {
+	margin:0px 20px;
+	text-align: center;
+	color: grey;
+	display: inline-block;
+	border-radius: 50px 10px;
+}
+
+.nav ul li:hover {
+	background-color: black;
+	color: white;
+}
+
+li {
+	color: red;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: grey;
+	width: 110px;
+	height: 60px;
+	padding: 30px;
+	font-family:´Bangers Sans SC´;
+	font-size:20px;
+}
+
+a:hover {
+	color: white;
+}
+
+p {
+	text-align: justify;
+	color: white;
+	margin-top: 5px;
+}
+
+img {
+	height: 125px;
+	float: left;
+	position: absolute;
+	z-index: 1;
+	left: 
+}
+
+section {
+	width: 625px;
+	height: 700px;
+	margin-left: 50px;
+	background-color: #ffffff;
